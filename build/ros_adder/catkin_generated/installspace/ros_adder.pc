@@ -1,0 +1,8 @@
+prefix=/home/ryota/catkin_ws/install
+
+Name: ros_adder
+Description: Description of ros_adder
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lros_adder
+Requires: roscpp rospy std_msgs
